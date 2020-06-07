@@ -1,28 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <br/>
-          Update by Khuzaim Khan
-          </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+//const hello = () => "Hello World"
+
+/* we can also do
+
+const hello = ({name}) => {
+  
+  return "Hello World"
+}
+*/ 
+
+function App({name,age}) {
+  //this will destructure the property given as argument.
+  return <div>
+      Hello from App.js <strong>{name} </strong> Age ={age}
+      <div>Another Tree</div>
+      <Hello firstName = {name} ></Hello>
+      </div>
 }
 
 export default App;
