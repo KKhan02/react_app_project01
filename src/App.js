@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import Hello from './Hello';
-import Page from './Page';
-import {BrowserRouter, Route} from "react-router-dom";
+// import './App.css';
+// import Hello from './Hello';
+// import Page from './Page';
+// import {BrowserRouter, Route} from "react-router-dom";
 
 //const hello = () => "Hello World"
 
