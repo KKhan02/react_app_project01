@@ -1,3 +1,14 @@
 .myname{
-    background-color: brown;
+    background-color: #B5651D;
 }
+
+.end{
+    background-color: lightslategray;
+}
+.legendcolor{
+    background-color: crimson;
+}
+
+.strangeNumbers {
+    word-spacing: 0.5em;
+  }

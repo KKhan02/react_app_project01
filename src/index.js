@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Hello from './Hello';
+import Page from './Page';
 
 
 ReactDOM.render(
-  <div><App name="Khuzaim Khan" age = {19}/> </div>,
-
+  <div>   <Page />
+  <Hello firstName="Khuzaim Khan" age = {20}/>
+  </div>,
+  
   document.getElementById('root')
 );
 

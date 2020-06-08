@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Hello from './Hello';
-
+import Page from './Page';
+import {BrowserRouter, Route} from "react-router-dom";
 
 //const hello = () => "Hello World"
 
@@ -15,11 +16,10 @@ const hello = ({name}) => {
 
 function App({name,age}) {
   //this will destructure the property given as argument.
-  return <div>
-      Hello from App.js <strong>{name} </strong> Age ={age}
-      <div>Another Tree</div>
-      <Hello firstName = {name} ></Hello>
+  return (<div>
+  
       </div>
+  );
 }
 
 export default App;
